@@ -3,17 +3,74 @@ body {
   padding: 0;
 }
 
-#secao-topo {
-  border-bottom: 1px solid rgb(180, 178, 178);
-}
-
-#secao-largura-limitada {
+.secao-largura-limitada {
   width: 800px;
   margin: 0 auto;
 }
 
-#secao-topo p {
+.secao-topo p {
   padding: 20px;
   font-size: 22px;
   font-weight: bold;
+}
+
+.img-topo {
+  background-image: url(img/capa.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.conteudo {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.borda{
+  border-left: 1px solid black;
+  padding-left: 5px;
+}
+
+.conteudo img {
+  width: 200px;
+}
+
+.atuacao-img {
+  background-image: url(img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100px;
+}
+
+.atuacao h3 {
+  text-align: center;
+}
+
+.area-atuacao {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.contato {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+span {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 30px;
 }
