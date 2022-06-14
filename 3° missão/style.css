@@ -9,16 +9,18 @@ h1{
 
 h2{
     text-align: center;
-    color: brown;
+    color: #a52a2a;
     font-size: 18px;
     font-weight: normal;
+    
 
 }
 
 h3{
     text-decoration: underline;
-    color: brown;
+    color: rgb(165, 42, 42);
     font-size: 16px;
+    
 
 }
 
@@ -36,5 +38,12 @@ img{
 
 div > h3,p{
     text-align: center;
+
+}
+
+p{
+    background-color: ;
+    text-align: justify;
+    text-decoration: underline;
 
 }
